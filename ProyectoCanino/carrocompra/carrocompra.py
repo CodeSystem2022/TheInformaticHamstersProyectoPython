@@ -20,13 +20,14 @@ class CarroCompra:
                 "nombre": producto.nombre,
                 "precio": str(producto.precio),
                 "cantidad": 1,
-                "imagen": producto.imagen.url
+                #"imagen": producto.imagen.url
             }
         #Si lo encuentra le suma uno mas
         else:
             for key, value in self.carro.items():
                 if key == str(producto.id):
                     value["cantidad"]=value["cantidad"]+1
+                    value["precio"] = float(value["precio"]) + producto.precio
                     break #Para que no sigua avanzando en la lista
         self.guardar_carro() #Para actualizar la sesion
 
@@ -47,6 +48,7 @@ class CarroCompra:
         for key, value in self.carro.items():
             if key == str(producto.id):
                 value["cantidad"]=value["cantidad"]-1
+                value["precio"] = float(value["precio"]) - producto.precio
                 if value["cantidad"] < 1:
                     self.eliminar(producto)
                 break #Para que no sigua avanzando en la lista

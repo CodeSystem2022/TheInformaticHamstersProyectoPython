@@ -19,10 +19,26 @@
 
 <body>
 
+     <div style="text-align: right; margin-right: 100px; color: white;">
+
+        {% if user.is_authenticated %}
+
+        Hola {{ user.username }} &nbsp;&nbsp; <a href="{% url 'cerrar_sesion' %}" style="color: white;">Cerrar sesion</a>
+
+        {% else %}
+
+        <a href="{% url 'loguear' %}" style="color: white;">Login</a> &nbsp; &nbsp; <a href="{% url 'Usuario' %}" style="color: white;">Registrar</a>
+
+        {% endif %}
+      </div>
+
     <h1 class="site-heading text-center text-white d-none d-lg-block">
       
         <span class="site-heading-lower">Guarderia de Mascotas</span>
       </h1>
+
+
+
 
 
  <!-- Navbar -->

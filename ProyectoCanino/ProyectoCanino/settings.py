@@ -43,6 +43,9 @@ INSTALLED_APPS = [
     'contacto',
     'tienda',
     'carrocompra',
+    'usuario',
+    'crispy_forms',
+    'crispy_bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -141,3 +144,5 @@ EMAIL_USE_TLS=True
 EMAIL_PORT=587
 EMAIL_HOST_USER="pruebatecnicatura@outlook.com"
 EMAIL_HOST_PASSWORD="tecnicatura2023"
+
+CRISPY_TEMPLATE_PACK='bootstrap4'

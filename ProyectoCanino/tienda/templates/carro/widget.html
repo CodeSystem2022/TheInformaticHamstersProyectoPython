@@ -12,8 +12,8 @@
         </tr>
     </thead>
     <tbody>
-        {% if request.session.carro.item %}
-            {% for key,value in request.session.carro.item %}
+        {% if request.session.carro.items %}
+            {% for key,value in request.session.carro.items %}
                 <tr class="text-center">
                     <td>{{value.nombre}}</td>
                     <td>{{value.cantidad}}</td>
