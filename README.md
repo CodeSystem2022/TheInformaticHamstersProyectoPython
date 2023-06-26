@@ -1,4 +1,4 @@
-<img width="50%" src="https://i.pinimg.com/564x/91/aa/7a/91aa7a7a03e62ae64a47a9e5f3f0d84f.jpg" alt="HouseDog">
+<img width="8%" src="https://i.pinimg.com/564x/91/aa/7a/91aa7a7a03e62ae64a47a9e5f3f0d84f.jpg" alt="HouseDog">
 <h1>Proyecto de Guardería de Mascotas</h1>
 <h2>Requisitos de Instalación</h2>
 <ul>
