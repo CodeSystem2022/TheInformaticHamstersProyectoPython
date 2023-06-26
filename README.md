@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>README - Proyecto de Guardería de Mascotas</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -33,9 +28,7 @@
             margin-right: 10px;
         }
     </style>
-</head>
 
-<body>
     <div class="header">
         <img src="https://i.pinimg.com/564x/91/aa/7a/91aa7a7a03e62ae64a47a9e5f3f0d84f.jpg" alt="HouseDog">
         <h1>Proyecto de Guardería de Mascotas</h1>
@@ -74,7 +67,3 @@
         <li>Quispe, Marcelo Alejandro</li>
         <li>Rodriguez Saquilan, Miguel</li>
     </ul>
-
-</body>
-
-</html>
