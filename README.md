@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.pinimg.com/564x/91/aa/7a/91aa7a7a03e62ae64a47a9e5f3f0d84f.jpg" alt="HouseDog" width="8%">
+  <img src="https://i.pinimg.com/564x/91/aa/7a/91aa7a7a03e62ae64a47a9e5f3f0d84f.jpg" alt="HouseDog" width="15%">
   <h1>Proyecto de Guardería de Mascotas</h1>
 </div>
 
