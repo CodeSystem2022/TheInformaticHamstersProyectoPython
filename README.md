@@ -32,7 +32,7 @@
     <li>Ejecuta el siguiente comando para iniciar el servidor de desarrollo:
         <pre><code>python manage.py runserver</code></pre>
     </li>
-    <li>Abre tu navegador web y accede a <code>http://localhost:8000/</code> o <code>http://localhost:8000/</code>
+    <li>Abre tu navegador web y accede a <code>http://localhost:8000/</code> o <code>http://127.0.0.1:8000/</code>
         para ver el proyecto en funcionamiento.</li>
 </ol>
 
