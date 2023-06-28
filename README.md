@@ -40,7 +40,7 @@
 <ul>
     <li>Python <img src="https://cdn.icon-icons.com/icons2/1508/PNG/512/python_104451.png" alt="Python" width="20px"></li>
     <li>Django <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_django_icon_130645.png" alt="Django" width="20px"></li>
-    <li>SQLite <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/sqlite_logo_icon_170706.png" alt="Django" width="20px"></li>
+    <li>SQLite <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_sqlite_icon_130153.png" alt="Django" width="20px"></li>
     <li>HTML5 <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/html_original_wordmark_logo_icon_146478.png" alt="HTML5" width="20px"></li>
     <li>CSS3 <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/css_original_wordmark_logo_icon_146576.png" alt="CSS3" width="20px"></li>
     <li>Bootstrap <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/bootstrap_plain_logo_icon_146619.png" alt="Bootstrap" width="20px"></li>
