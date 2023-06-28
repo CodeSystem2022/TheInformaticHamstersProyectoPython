@@ -1,0 +1,12 @@
+<!-- propietario_list.html -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Listado de Propietarios</h1>
+  <ul>
+    {% for propietario in propietarios %}
+      <li>{{ propietario.nombre }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
