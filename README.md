@@ -38,7 +38,7 @@
 
 <h2>🚀 Tecnologías Utilizadas</h2>
 <ul>
-    <li>Python <img src="https://fontawesome.com/icons/python?f=brands&s=solid" alt="Python" width="20px"></li>
+    <li>Python <i class="fab fa-python"></i> alt="Python" width="20px"></li>
     <li>Django <img src="URL_DEL_ICONO_DE_DJANGO" alt="Django" width="20px"></li>
     <li>HTML5 <img src="URL_DEL_ICONO_DE_HTML5" alt="HTML5" width="20px"></li>
     <li>CSS3 <img src="URL_DEL_ICONO_DE_CSS3" alt="CSS3" width="20px"></li>
