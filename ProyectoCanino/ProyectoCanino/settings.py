@@ -45,7 +45,8 @@ INSTALLED_APPS = [
     'carrocompra',
     'usuario',
     'crispy_forms',
-    'crispy_bootstrap4',
+    'calendario',
+
 ]
 
 MIDDLEWARE = [
