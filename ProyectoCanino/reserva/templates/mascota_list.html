@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Listado de Mascotas</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Raza</th>
+        <th>Fecha de Nacimiento</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for mascota in mascotas %}
+        <tr>
+          <td>{{ mascota.nombre }}</td>
+          <td>{{ mascota.raza }}</td>
+          <td>{{ mascota.fecha_nacimiento }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

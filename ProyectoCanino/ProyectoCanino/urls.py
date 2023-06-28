@@ -16,6 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from reserva.views import PropietarioListView, PropietarioCreateView, PropietarioUpdateView, MascotaListView, MascotaCreateView, MascotaUpdateView
 
 
 urlpatterns = [
@@ -26,5 +27,10 @@ urlpatterns = [
     path('tienda/', include("tienda.urls")),
     path('carro/', include("carrocompra.urls")),
     path('usuario/', include("usuario.urls")),
-    path('', include('ProyectoGuarderiaMascotas.urls')),
+    path('propietarios/', PropietarioListView.as_view(), name='propietario-list'),
+    path('propietarios/create/', PropietarioCreateView.as_view(), name='propietario-create'),
+    path('propietarios/update/<int:pk>/', PropietarioUpdateView.as_view(), name='propietario-update'),
+    path('mascotas/', MascotaListView.as_view(), name='mascota-list'),
+    path('mascotas/create/', MascotaCreateView.as_view(), name='mascota-create'),
+    path('mascotas/update/<int:pk>/', MascotaUpdateView.as_view(), name='mascota-update'),
 ]

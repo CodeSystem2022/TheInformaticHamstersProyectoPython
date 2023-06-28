@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Crear Nueva Mascota</h1>
+  <form method="post">
+    {% csrf_token %}
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" required>
+    <br>
+    <label for="raza">Raza:</label>
+    <input type="text" name="raza" id="raza" required>
+    <br>
+    <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+    <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" required>
+    <br>
+    <input type="submit" value="Guardar">
+  </form>
+{% endblock %}
