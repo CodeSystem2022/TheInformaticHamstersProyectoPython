@@ -38,7 +38,7 @@
 
 <h2>🚀 Tecnologías Utilizadas</h2>
 <ul>
-    <li>Python <i class="fab fa-python"></i> alt="Python" width="20px"></li>
+    <li>Python <img src="https://cdn.icon-icons.com/icons2/1508/PNG/512/python_104451.png" alt="Python" width="20px"></li>
     <li>Django <img src="URL_DEL_ICONO_DE_DJANGO" alt="Django" width="20px"></li>
     <li>SQLite <img src="URL_DEL_ICONO_DE_DJANGO" alt="Django" width="20px"></li>
     <li>HTML5 <img src="URL_DEL_ICONO_DE_HTML5" alt="HTML5" width="20px"></li>
