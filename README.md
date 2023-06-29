@@ -7,6 +7,18 @@
 <ul>
     <li>Python 3.6 o superior instalado</li>
     <li>PIP (Python Package Installer) instalado</li>
+    <li>Clona este repositorio en tu máquina local:
+      <pre><code>git clone https://github.com/CodeSystem2022/TheInformaticHamstersProyectoPython.git</code></pre>
+    </li>
+    <li>Navega hasta carpeta raíz del proyecto y utiliza el comando cd para abrir esa carpeta: Ej
+    <pre><code>cd C:\Users\TheInformaticHamstersProyectoPython\ProyectoCanino</code></pre>
+    </li>
+    <li>Se recomienda crear un entorno virtual para el proyecto para evitar conflictos de dependencias ejecutando el siguiente comando:
+      <pre><code>python -m venv myenv</code></pre>
+    </li>
+    <li>Activa el entorno virtual utilizando el siguiente comando:
+      <pre><code>myenv\Scripts\activate</code></pre>
+    </li>
     <li>Django framework instalado. Puedes instalarlo ejecutando el siguiente comando en tu terminal o consola:
         <pre><code>pip install django</code></pre>
     </li>
