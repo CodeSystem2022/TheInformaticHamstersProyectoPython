@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'carrocompra',
     'usuario',
     'crispy_forms',
-    'calendario',
+    'cal',
 
 ]
 

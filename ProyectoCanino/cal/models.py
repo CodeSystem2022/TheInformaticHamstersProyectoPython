@@ -1,3 +1,4 @@
+# Modelo de evento: eventos del día, a qué hora comienza, finaliza y de qué se trata el evento.
 from django.db import models
 
 
