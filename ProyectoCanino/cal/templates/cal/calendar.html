@@ -1,0 +1,18 @@
+<!-- extendemos base.html y representamos la variable de calendario -->
+
+<!--usamos prev_monthy next_month'svar como parámetros de solicitud. Significa que cuando presionamos
+el botón de mes anterior/siguiente, la fecha correspondiente pasa a la solicitud y podemos obtenerla
+de nuestras vistas usando self.request.GET.get('month', None). -->
+
+{% extends 'cal/base.html' %}
+
+{% block content %}
+    <div class="clearfix">
+        <a class="btn btn-info left" href="{% url 'cal:calendar' %}?{{ prev_month }}">Previous Month</a>
+        <a class="btn btn-info right" href="{% url 'cal:calendar' %}?{{ next_month }}">Next Month</a>
+
+    </div>
+
+    {{ calendar }}
+{% endblock %}
+
