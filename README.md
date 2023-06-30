@@ -58,7 +58,7 @@
     <li>Bootstrap <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/bootstrap_plain_logo_icon_146619.png" alt="Bootstrap" width="20px"></li>
 </ul>
 
-<h2> 👯 Colaboradores </h2>
+<h2> 👯 Colaboradores. </h2>
 <ul>
     <li>Acosta, Nadia Yanella</li>
     <li>Diaz Luna, Giuliana Paola</li>
