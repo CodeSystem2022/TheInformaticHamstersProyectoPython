@@ -7,12 +7,24 @@ de nuestras vistas usando self.request.GET.get('month', None). -->
 {% extends 'cal/base.html' %}
 
 {% block content %}
-    <div class="clearfix">
-        <a class="btn btn-info left" href="{% url 'cal:calendar' %}?{{ prev_month }}">Previous Month</a>
-        <a class="btn btn-info right" href="{% url 'cal:calendar' %}?{{ next_month }}">Next Month</a>
-
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header clearfix">
+                        <a class="btn btn-warning float-left" href="{% url 'cal:calendar' %}?{{ prev_month }}">Mes anterior</a>
+                        <a class="btn btn-warning float-right" href="{% url 'cal:calendar' %}?{{ next_month }}">Mes siguiente</a>
+                    </div>
+                    <div class="card-body">
+                        {{ calendar }}
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    {{ calendar }}
 {% endblock %}
+
+
+
+
 
