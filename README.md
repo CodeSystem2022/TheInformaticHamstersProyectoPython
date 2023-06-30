@@ -60,7 +60,7 @@
 
 <h2> 👯 Colaboradores. </h2>
 <ul>
-    <li>Acosta, Nadia Yanella</li>
+    <li>Acosta, Nadia </li>
     <li>Diaz Luna, Giuliana Paola</li>
     <li>Nolan, Juan Pablo</li>
     <li>Quispe, Marcelo Alejandro</li>
