@@ -29,7 +29,7 @@
         <pre><code>pip install django-crispy-forms</code></pre>      
     </li>
       <li> Instala el paquete crispy_bootstrap4, una biblioteca de Django que proporciona una integración entre el formulario de Django y el framework CSS Bootstrap. Puedes instalarlo ejecutando el siguiente comando:
-        <pre><code> pip install crispy_boostrap4 </code></pre>    
+        <pre><code> pip install crispy_bootstrap4 </code></pre>    
     </li>
   
 </ul>
