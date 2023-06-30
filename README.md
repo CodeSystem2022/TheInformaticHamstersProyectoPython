@@ -28,8 +28,8 @@
     <li>Django Crispy Forms (biblioteca de terceros para Django de creación de formularios HTML). Instala la versión estable del paquete desde PyPI. Puedes instalarlo ejecutando el siguiente comando:
         <pre><code>pip install django-crispy-forms</code></pre>      
     </li>
-      <li> O instala el paquete django-crispy-forms en modo de edición directamente desde un repositorio de GitHub. Puedes instalarlo ejecutando el siguiente comando:
-        <pre><code> pip install -e git+https://github.com/maraujop/django-crispy-forms.git#egg=django-crispy-forms</code></pre>    
+      <li> Instala el paquete crispy_bootstrap4, una biblioteca de Django que proporciona una integración entre el formulario de Django y el framework CSS Bootstrap. Puedes instalarlo ejecutando el siguiente comando:
+        <pre><code> pip install crispy_boostrap4 </code></pre>    
     </li>
   
 </ul>
