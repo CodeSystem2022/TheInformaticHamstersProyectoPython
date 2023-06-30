@@ -8,12 +8,15 @@
   float: right;
 }
 
-.btn {
+.calendar .btn {
   outline: none;
   color: black;
-  background-color: transparent;
+  background-color: #184008;
   box-shadow: 0 0 0 0;
   margin-right: 3px;
+}
+.calendar .btn a {
+  color: white; /* Cambia el color del texto dentro del botón a blanco */
 }
 
 .clearfix {
@@ -34,10 +37,6 @@
 }
 
 
-
-
-
-
 /* App styles */
 .title {
   text-align: center;
@@ -48,26 +47,32 @@
   width: 98%;
   margin: auto;
   font-size: 13px;
+  border-collapse: collapse; /* Agrega esta propiedad para colapsar los bordes de la tabla */
 }
 
-.calendar tr, .calendar td {
-  border: 1px solid black;
+.calendar tr{
+  border: 1px solid black;  /*Agrega un borde inferior a cada fila */
 }
 
 .calendar th {
   padding: 10px;
   text-align: center;
   font-size: 18px;
+  border-bottom: 1px solid black; /* Agrega un borde inferior a cada encabezado de columna */
 }
 
 .calendar td {
   width: 200px;
   height: 150px;
   padding: 20px 0px 0px 5px;
+  border-right: 1px solid black; /* Agrega un borde derecho a cada celda */
+  border-bottom: 1px solid black; /* Agrega un borde inferior a cada celda */
 }
 
 .month {
   font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .date {

@@ -62,6 +62,11 @@
           <li class="nav-item {% if request.path == '/contacto/' %}active{% endif %} px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="{% url 'Contacto' %}">Contacto</a>
           </li>
+            <li class="nav-item {% if request.path|slice:':11' == '/cal/evento' %}active{% endif %} px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="{% url 'cal:event_new' %}">Reserva</a>
+            </li>
+
+
           <li class="nav-item {% if request.path|slice:':6' == '/blog/' %}active{% endif %} px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="{% url 'Blog' %}">Blog</a>
           </li>
@@ -77,7 +82,7 @@
     {% endblock %}
   
    <!-- Footer -->
-    <footer class="footer text-faded text-center py-5">
+     <footer class="footer text-faded text-center py-5">
       <div class="container">
         <p class="m-0">
 	        <a href="#" class="link">
