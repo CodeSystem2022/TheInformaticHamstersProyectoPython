@@ -25,7 +25,7 @@
     <li>Pillow (librería de manipulación de imágenes) instalado. Puedes instalarlo ejecutando el siguiente comando:
         <pre><code>pip install Pillow</code></pre>
     </li>
-    <li>Django Crispy Forms (biblioteca de terceros para Django de creación de formularios HTML). Instala la versión estable del paquete desde PyPI. Puedes instalarlo ejecutando el siguiente comando:
+    <li>Django Crispy Forms (biblioteca de terceros para Django de creación de formularios HTML). Puedes instalarlo ejecutando el siguiente comando:
         <pre><code>pip install django-crispy-forms</code></pre>      
     </li>
       <li> Instala el paquete crispy_bootstrap4, una biblioteca de Django que proporciona una integración entre el formulario de Django y el framework CSS Bootstrap. Puedes instalarlo ejecutando el siguiente comando:
