@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'carrocompra',
     'usuario',
     'crispy_forms',
-    'crispy_boostrap4',
+    'crispy_bootstrap4',
     'cal',
 
 ]
