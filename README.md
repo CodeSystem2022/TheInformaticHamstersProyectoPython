@@ -2,7 +2,7 @@
   <img src="https://i.pinimg.com/564x/91/aa/7a/91aa7a7a03e62ae64a47a9e5f3f0d84f.jpg" alt="HouseDog" width="15%">
   <h1>Proyecto de Guardería de Mascotas</h1>
 </div>
-La Guardería de Mascotas es un proyecto desarrollado en Django que combina diferentes funcionalidades como reservas de guardería, tienda de productos, blog informativo, formulario de contacto y servicios de cuidado de mascotas. Nuestro objetivo es proporcionar un espacio en línea donde los amantes de las mascotas puedan acceder a diversos servicios y recursos, facilitando así el cuidado y la atención adecuada que cada mascota merece.
+La Guardería de Mascotas es un proyecto desarrollado en Django que combina diferentes funcionalidades como reservas de guardería, tienda de productos, blog informativo, formulario de contacto y servicios de recreación, alimentación y cuidado de mascotas. Nuestro objetivo es proporcionar un espacio en línea donde los amantes de las mascotas puedan acceder a diversos servicios y recursos, facilitando así el cuidado y la atención adecuada que cada mascota merece.
 
 <h2>Requisitos de Instalación</h2>
 <ul>
