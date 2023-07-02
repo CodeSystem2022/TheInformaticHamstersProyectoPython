@@ -2,6 +2,20 @@
   <img src="https://i.pinimg.com/564x/91/aa/7a/91aa7a7a03e62ae64a47a9e5f3f0d84f.jpg" alt="HouseDog" width="15%">
   <h1>Proyecto de Guardería de Mascotas</h1>
 </div>
+La Guardería de Mascotas es un proyecto desarrollado en Django que combina diferentes funcionalidades como reservas de guardería, tienda de productos, blog informativo y servicios de cuidado de mascotas. Nuestro objetivo es proporcionar un espacio en línea donde los amantes de las mascotas puedan acceder a diversos servicios y recursos, facilitando así el cuidado y la atención adecuada que cada mascota merece. ¡Nos enorgullece presentar este proyecto y esperamos que sea de gran utilidad y satisfacción para todos los usuarios!
+
+El proyecto cuenta con varios módulos y funcionalidades:
+
+Módulo de Calendario (Cal): Este módulo permite a los usuarios realizar reservas para el cuidado de sus mascotas en la guardería. Los usuarios pueden seleccionar fechas y horarios disponibles y proporcionar información sobre sus mascotas.
+
+Módulo de Tienda: El módulo de Tienda ofrece una variedad de productos relacionados con las necesidades de las mascotas, como alimentos, juguetes, accesorios y productos de higiene. Los usuarios pueden navegar por el catálogo y agregar productos al carrito de compras.
+
+Módulo de Blog: El módulo de Blog brinda a los usuarios acceso a artículos y publicaciones relacionadas con el cuidado de las mascotas. Aquí, los usuarios pueden encontrar información útil, consejos, noticias y guías sobre temas como la salud, la alimentación, el adiestramiento y el comportamiento de las mascotas.
+
+Módulo de Autenticación y Registro: El proyecto cuenta con un sistema de autenticación y registro que permite a los usuarios crear una cuenta personalizada y administrar su perfil.
+
+Módulo de Servicios: El módulo de Servicios ofrece una descripción detallada de los diferentes servicios que se brindan en la guardería de mascotas.
+
 
 <h2>Requisitos de Instalación</h2>
 <ul>
@@ -11,7 +25,7 @@
       <pre><code>git clone https://github.com/CodeSystem2022/TheInformaticHamstersProyectoPython.git</code></pre>
     </li>
     <li>Navega hasta carpeta raíz del proyecto y utiliza el comando cd para abrir esa carpeta: Ej
-    <pre><code>cd C:\Users\TheInformaticHamstersProyectoPython\ProyectoCanino</code></pre>
+    <pre><code>cd C:...\TheInformaticHamstersProyectoPython\ProyectoCanino</code></pre>
     </li>
     <li>Se recomienda crear un entorno virtual para el proyecto para evitar conflictos de dependencias ejecutando el siguiente comando:
       <pre><code>python -m venv myenv</code></pre>
