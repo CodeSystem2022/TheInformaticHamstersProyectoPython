@@ -8,10 +8,10 @@ La Guardería de Mascotas es un proyecto desarrollado en Django que combina dife
 <ul>
     <li>Python 3.6 o superior instalado</li>
     <li>PIP (Python Package Installer) instalado</li>
-    <li>Clona este repositorio en tu máquina local:
+    <li>Clona el repositorio del proyecto desde GitHub:
       <pre><code>git clone https://github.com/CodeSystem2022/TheInformaticHamstersProyectoPython.git</code></pre>
     </li>
-    <li>Navega hasta carpeta raíz del proyecto y utiliza el comando cd para abrir esa carpeta: Ej
+    <li> Abre una terminal o consola y navega hasta el directorio del proyecto y utiliza el comando cd para abrir esa carpeta:
     <pre><code>cd C:...\TheInformaticHamstersProyectoPython\ProyectoCanino</code></pre>
     </li>
     <li>Se recomienda crear un entorno virtual para el proyecto para evitar conflictos de dependencias ejecutando el siguiente comando:
@@ -37,8 +37,6 @@ La Guardería de Mascotas es un proyecto desarrollado en Django que combina dife
 
 <h2>Ejecución del Proyecto</h2>
 <ol>
-    <li>Clona el repositorio del proyecto desde GitHub.</li>
-    <li>Abre una terminal o consola y navega hasta el directorio del proyecto.</li>
     <li>Ejecuta el siguiente comando para aplicar las migraciones de la base de datos:
         <pre><code>python manage.py migrate</code></pre>
     </li>
