@@ -47,7 +47,8 @@ La Guardería de Mascotas es un proyecto desarrollado en Django que combina dife
         para ver el proyecto en funcionamiento.</li>
 </ol>
 
-## 🚀 Tecnologías Utilizadas
+<h2>🚀 Tecnologías Utilizadas</h2>
+<br>
 
 <p align="center">
   <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">
@@ -78,7 +79,7 @@ La Guardería de Mascotas es un proyecto desarrollado en Django que combina dife
     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="80" height="80"/>
   </a>
 </p>
-
+<br>
 
 <h2> 👯 Colaboradores </h2>
 <ul>
