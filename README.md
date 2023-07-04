@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://i.pinimg.com/564x/91/aa/7a/91aa7a7a03e62ae64a47a9e5f3f0d84f.jpg" alt="HouseDog" width="15%">
-  <h1>Proyecto de Guardería de Mascotas</h1>
+  <h1>Proyecto Integrador - Guardería de Mascotas</h1>
 </div>
 La Guardería de Mascotas es un proyecto desarrollado en Django que combina diferentes funcionalidades como reservas de guardería, tienda de productos, blog informativo, formulario de contacto y servicios de recreación, alimentación y cuidado de mascotas. Nuestro objetivo es proporcionar un espacio en línea donde los amantes de las mascotas puedan acceder a diversos servicios y recursos, facilitando así el cuidado y la atención adecuada que cada mascota merece 🏠🐶❤️.
 
@@ -48,6 +48,17 @@ La Guardería de Mascotas es un proyecto desarrollado en Django que combina dife
 </ol>
 
 <h2>🚀 Tecnologías Utilizadas</h2>
+<p align="center"> 
+	<a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="80" height="80"/> </a> 
+	<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="80" height="80/> </a> 
+	<a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="80" height="80" /> </a> 
+	<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="80" height="80"/> </a> 
+	<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="80" height="80"/> </a> 
+	<a href="https://sqlite.org/index.html" target="_blank" rel="noreferrer"> <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_sqlite_icon_130153.png" alt="sqlite" width="80" height="80"/> </a> 
+	<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="80" height="80"/> </a> 
+	<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" wwidth="80" height="80"/> </a> 
+
+</p>
 <ul>
     <li>Python <img src="https://cdn.icon-icons.com/icons2/1508/PNG/512/python_104451.png" alt="Python" width="20px"></li>
     <li>Django <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_django_icon_130645.png" alt="Django" width="20px"></li>
